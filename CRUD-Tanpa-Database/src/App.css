@@ -1,0 +1,29 @@
+.container {
+  margin: 50px auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+table {
+  border: 2px solid rgb(207, 207, 207);
+  width: 80%;
+  margin: 0 auto;
+}
+
+table th {
+  background-color: lightslategrey;
+  padding: 10px;
+}
+
+table td {
+  text-align: left;
+  background-color: salmon;
+  padding: 7px;
+}
+
+input {
+  width: 80%;
+  text-align: center;
+}
