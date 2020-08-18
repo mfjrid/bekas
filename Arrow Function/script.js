@@ -1,6 +1,6 @@
 // Arrow Function
-let tampilPesan = (nama) => {
-  alert(`halo ${nama}`);
+const tampilNama = (nama) => {
+  `halo ${nama}`;
 };
 
-tampilPesan("Fajar");
+console.log(tampilNama("Muhammad Fajar"));
