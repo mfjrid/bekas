@@ -1,7 +1,9 @@
-// Arrow Function Mapping to Object
-let mahasiswa = ["Muhammad Fajar", "Irwan Ardiansyah", "Supriadi Manalu"];
-let jumlahHuruf = mahasiswa.map((nama) => ({
-  nama: nama,
-  jmlHuruf: nama.length,
-}));
-console.log(jumlahHuruf);
+// Konsep this pada Constructor Function
+const Mahasiswa = function () {
+  (this.nama = "Fajar"), (this.umur = 23);
+  this.sayHello = function () {
+    console.log(`Halo, nama saya ${this.nama} dan saya ${this.umur} tahun.`);
+  };
+};
+
+const fajar = new Mahasiswa();
