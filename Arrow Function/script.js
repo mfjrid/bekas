@@ -1,6 +1,6 @@
 // Arrow Function
-const tampilNama = (nama) => {
-  `halo ${nama}`;
+const tampilNama = (waktu, nama) => {
+  return `Selamat ${waktu}, ${nama}`;
 };
 
-console.log(tampilNama("Muhammad Fajar"));
+console.log(tampilNama("Siang", "Muhammad Fajar"));
