@@ -1,5 +1,5 @@
-// Function Expression
-let tampilPesan = function (nama) {
+// Arrow Function
+let tampilPesan = (nama) => {
   alert(`halo ${nama}`);
 };
 
