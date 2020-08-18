@@ -1,3 +1,3 @@
 // Arrow Function
-const tampilNama = nama => `Halo, ${nama}`;
-console.log(tampilNama(Fajar");
+const tampilNama = () => `Halo Dunia!`;
+console.log(tampilNama());
