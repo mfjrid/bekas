@@ -1,2 +1,2 @@
 Website Muhammad Fajar <br />
-<b>MFJRID.COM</b>
+<a href="https://mfjrid.com" target="_blank">MFJRID.COM</b>
