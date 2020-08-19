@@ -6,3 +6,76 @@
 body {
     font-family: 'Poppins', sans-serif;
 }
+
+.bg-abu {
+    height: 100vh;
+    width: 75%;
+    background-color: #F6F6F6;
+    position: absolute;
+}
+
+/* .flex-header {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    width: 100%;
+} */
+
+h1.header {
+    margin-top: 30%;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+p.header {
+    margin-top: 25px;
+    line-height: 35px;
+}
+
+.button {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 25px;
+    text-decoration: none;
+    color: #292929;
+    font-weight: 600;
+    font-size: 12px;
+    margin-right: 20px;
+    border-radius: 2px;
+    transition: 0.3s;
+}
+
+.button:hover {
+    text-decoration: none;
+}
+
+.button.utama {
+    background-color: #91CEFC;
+}
+
+.button.utama:hover,
+.button.kedua:hover {
+    background-color: #669cb0;
+    color: #FFFFFF;
+}
+
+.button.kedua {
+    background-color: #FFFFFF;
+    box-shadow: 0 3px 35px rgba(0, 0, 0, 0.1);
+}
+
+.feather {
+    width: 16px;
+    height: 16px;
+    stroke: currentColor;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    fill: none;
+    margin-left: 5px;
+}
