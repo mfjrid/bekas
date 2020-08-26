@@ -12,6 +12,7 @@
     "judul": "YoPro",
     "tanggal": "17 Agustus 2020",
     "tipe": "Web Design",
+    "link_url": "page/yopro",
     "image_url": "img/yo_pro.png"
   },
   {
@@ -19,6 +20,7 @@
     "judul": "UBSI Students App Redesign",
     "tanggal": "1 Desember 2018",
     "tipe": "App Design",
+    "link_url": "page/ubsi-app-redesign",
     "image_url": "img/ubsi.png"
   },
   {
@@ -26,6 +28,7 @@
     "judul": "Nasi Goreng App",
     "tanggal": "1 Desember 2018",
     "tipe": "App Design",
+    "link_url": "page/nasi-goreng-app",
     "image_url": "img/nasi-goreng-app.png"
   },
   {
@@ -33,6 +36,7 @@
     "judul": "Good.Co",
     "tanggal": "1 Desember 2018",
     "tipe": "App Design",
+    "link_url": "page/good_co-app",
     "image_url": "img/good_co.png"
   }
 ]
