@@ -17,6 +17,10 @@
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/v4-shims.css"
+    />
 
     <!-- CSS MFJR -->
     <link rel="stylesheet" href="css/style.css" />
@@ -27,18 +31,28 @@
     <div class="container">
       <div class="row">
         <div class="col-md-6 flex-header">
-          <h1 class="header">Halaman ini sedang dalam perbaikan.</h1>
+          <h1 class="header"><span>Halo, Saya </span>Muhammad Fajar</h1>
           <p class="header">
-            Untuk keperluan bisnis, silahkan hubungi via email atau download CV
-            untuk mengenal saya lebih dalam.
+            Senang bertemu dengan Anda! Mari berkenalan lebih jauh.
           </p>
           <a href="mailto:fajar@mfjrid.com" class="button utama">Kirim Email</a>
           <a href="files/CV-MuhammadFajar.pdf" class="button kedua"
             >Download CV <i class="feather" data-feather="download"></i
           ></a>
         </div>
-        <div class="col-md-4 offset-md-2 hide-mobile">
+        <div class="col-md-4 hide-mobile">
           <div class="kotak-foto">
+            <div class="icon-kanan"></div>
+            <div
+              class="dribbble icon-kanan"
+              onmouseover="munculText()"
+              onmouseout="hilangText()"
+            >
+              <i class="fab fa-dribbble"></i>
+            </div>
+            <div class="hover-icon" id="hover-icon">
+              <p>Lihat Design Saya di Dribbble!</p>
+            </div>
             <img src="img/profile.jpg" alt="Profile Picture" />
             <h4>Muhammad Fajar</h4>
             <p>UI Designer & Front End Developer</p>
@@ -48,6 +62,14 @@
       </div>
     </div>
 
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"
+    ></script>
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.14.0/js/v4-shims.js"
+    ></script>
     <script src="https://unpkg.com/feather-icons"></script>
     <script src="js/script.js"></script>
   </body>
