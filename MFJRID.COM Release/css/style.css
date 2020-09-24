@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+
+.bg-abu {
+    height: 100vh;
+    width: 75%;
+    background-color: #F6F6F6;
+    position: absolute;
+}
+
+h1.header {
+    margin-top: 30%;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+p.header {
+    margin-top: 25px;
+    line-height: 35px;
+}
+
+.button {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 25px;
+    text-decoration: none;
+    color: #292929;
+    font-weight: 600;
+    font-size: 12px;
+    margin-right: 20px;
+    border-radius: 2px;
+    transition: 0.3s;
+}
+
+.button:hover {
+    text-decoration: none;
+}
+
+.button.utama {
+    background-color: #91CEFC;
+}
+
+.button.utama:hover,
+.button.kedua:hover {
+    background-color: #669cb0;
+    color: #FFFFFF;
+}
+
+.button.kedua {
+    background-color: #FFFFFF;
+    box-shadow: 0 3px 35px rgba(0, 0, 0, 0.1);
+}
+
+.feather {
+    width: 16px;
+    height: 16px;
+    stroke: currentColor;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    fill: none;
+    margin-left: 5px;
+}
+
+.kotak-foto {
+    margin-top: 25%;
+    margin-left: 50px;
+    width: 280px;
+    padding: 15px;
+    background-color: #FFFFFF;
+    box-shadow: 0 3px 35px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    transition: 0.8s;
+}
+
+.kotak-foto:hover {
+    transform: scale(1.03);
+}
+
+.kotak-foto img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.kotak-foto h4 {
+    margin-top: 25px;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.kotak-foto p {
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.bulat-kecil {
+    background-color: rgba(145, 206, 252, 0.5);
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 65%;
+    transition: 0.3s;
+}
+
+.bulat-kecil:hover {
+    transform: scale(0.9) translateX(-0.5%);
+}
+
+.bulat-besar {
+    background-color: rgba(145, 206, 252, 1);
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 30px;
+    margin-right: -50px;
+    transition: 1s;
+}
+
+.bulat-besar:hover {
+    transform: scale(1.095) translateX(-0.5%);
+}
+
+
+/* Responsive CSS */
+@media only screen and (max-width: 600px) {
+    .bg-abu {
+        height: 100%;
+    }
+
+    body {
+        overflow: hidden;
+    }
+
+    .hide-mobile {
+        visibility: hidden;
+        display: none;
+    }
+
+    h1.header {
+        font-size: 30px;
+    }
+
+    p.header {
+        line-height: 24px;
+        font-size: 11px;
+    }
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "judul": "warNET App",
+    "tanggal": "17 Agustus 2020",
+    "tipe": "App Design",
+    "link_url": "page/warnet-app",
+    "image_url": "img/warnet-app.png"
+  },
+  {
+    "id": 2,
+    "judul": "YoPro",
+    "tanggal": "17 Agustus 2020",
+    "tipe": "Web Design",
+    "link_url": "page/yopro",
+    "image_url": "img/yo_pro.png"
+  },
+  {
+    "id": 3,
+    "judul": "UBSI Students App Redesign",
+    "tanggal": "1 Desember 2018",
+    "tipe": "App Design",
+    "link_url": "page/ubsi-app-redesign",
+    "image_url": "img/ubsi.png"
+  },
+  {
+    "id": 4,
+    "judul": "Nasi Goreng App",
+    "tanggal": "1 Desember 2018",
+    "tipe": "App Design",
+    "link_url": "page/nasi-goreng-app",
+    "image_url": "img/nasi-goreng-app.png"
+  },
+  {
+    "id": 5,
+    "judul": "Good.Co",
+    "tanggal": "1 Desember 2018",
+    "tipe": "App Design",
+    "link_url": "page/good_co-app",
+    "image_url": "img/good_co.png"
+  }
+]
