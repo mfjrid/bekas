@@ -213,6 +213,41 @@ p.header {
   transform: scale(1.095) translateX(-0.5%);
 }
 
+.header-counter {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+.kotak-counter {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.kotak-counter .counter {
+  padding: 5px;
+  /* background-color: rgba(0, 0, 0, 0.2); */
+  width: auto;
+  margin: 10px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.counter span {
+  font-weight: 700;
+  font-size: 42px;
+}
+
+.garis {
+  background-color: rgba(0, 0, 0, 0.3);
+  height: 80px;
+  width: 1px;
+}
+
 /* Responsive CSS */
 @media only screen and (max-width: 600px) {
   .bg-abu {

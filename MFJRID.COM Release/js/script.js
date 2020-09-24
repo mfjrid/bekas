@@ -13,3 +13,20 @@ function hilangText() {
   x.style.opacity = "0";
   x.style.transition = "0.5s";
 }
+
+$(".count").each(function () {
+  $(this)
+    .prop("Counter", -1)
+    .animate(
+      {
+        Counter: $(this).text(),
+      },
+      {
+        duration: 3000,
+        easing: "swing",
+        step: function (now) {
+          $(this).text(Math.ceil(now));
+        },
+      }
+    );
+});
