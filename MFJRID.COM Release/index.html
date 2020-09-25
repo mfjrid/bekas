@@ -26,59 +26,83 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <div class="bg-header"></div>
-    <div class="bg-abu"></div>
-    <div class="bulat-besar hide-mobile"></div>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6 flex-header">
-          <h1 class="header"><span>Halo, Saya </span>Muhammad Fajar</h1>
-          <p class="header">
-            Senang bertemu dengan Anda! Mari berkenalan lebih jauh.
-          </p>
-          <a href="mailto:fajar@mfjrid.com" class="button utama">Kirim Email</a>
-          <a href="files/CV-MuhammadFajar.pdf" class="button kedua"
-            >Download CV <i class="feather" data-feather="download"></i
-          ></a>
-        </div>
-        <div class="col-md-4 hide-mobile">
-          <div class="kotak-foto">
-            <div class="icon-kanan"></div>
-            <div
-              class="dribbble icon-kanan"
-              onmouseover="munculText()"
-              onmouseout="hilangText()"
-            >
-              <a href="https://dribbble.com/mfjrid" target="_blank">
-                <i class="fab fa-dribbble"></i
-              ></a>
+    <div id="header-section">
+      <div class="bg-header"></div>
+      <div class="bg-abu"></div>
+
+      <div class="bulat-besar hide-mobile"></div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 hide-web">
+            <div class="kotak-foto">
+              <div class="icon-kanan"></div>
+              <div class="dribbble icon-kanan">
+                <a href="https://dribbble.com/mfjrid" target="_blank">
+                  <i class="fab fa-dribbble"></i
+                ></a>
+              </div>
+              <img src="img/profile.jpg" alt="Profile Picture" />
+              <h4>Muhammad Fajar</h4>
+              <p>UI Designer & Front End Developer</p>
             </div>
-            <div class="hover-icon" id="hover-icon">
-              <p>Lihat Design Saya di Dribbble!</p>
-            </div>
-            <img src="img/profile.jpg" alt="Profile Picture" />
-            <h4>Muhammad Fajar</h4>
-            <p>UI Designer & Front End Developer</p>
+            <div class="bulat-kecil"></div>
           </div>
-          <div class="bulat-kecil"></div>
+
+          <div class="col-md-6 flex-header">
+            <h1 class="header"><span>Halo, Saya </span>Muhammad Fajar</h1>
+            <p class="header">
+              Senang bertemu dengan Anda! Mari berkenalan lebih jauh.
+            </p>
+            <a href="mailto:fajar@mfjrid.com" class="button utama"
+              >Kirim Email</a
+            >
+            <a href="files/CV-MuhammadFajar.pdf" class="button kedua"
+              >Download CV <i class="feather" data-feather="download"></i
+            ></a>
+          </div>
+
+          <div class="col-md-4 hide-mobile">
+            <div class="kotak-foto">
+              <div class="icon-kanan"></div>
+              <div
+                class="dribbble icon-kanan"
+                onmouseover="munculText()"
+                onmouseout="hilangText()"
+              >
+                <a href="https://dribbble.com/mfjrid" target="_blank">
+                  <i class="fab fa-dribbble"></i
+                ></a>
+              </div>
+              <div class="hover-icon" id="hover-icon">
+                <p>Lihat Design Saya di Dribbble!</p>
+              </div>
+              <img src="img/profile.jpg" alt="Profile Picture" />
+              <h4>Muhammad Fajar</h4>
+              <p>UI Designer & Front End Developer</p>
+            </div>
+
+            <div class="bulat-kecil"></div>
+          </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-md-4 offset-8 header-counter">
-          <div class="kotak-counter">
-            <div class="counter">
-              <span class="count">10</span><br />
-              Design Dibuat
-            </div>
-            <div class="garis"></div>
-            <div class="counter">
-              <span class="count">12</span><br />
-              Halaman Dibangun
-            </div>
-            <div class="garis"></div>
-            <div class="counter">
-              <span class="count">15</span><br />
-              Project Selesai
+
+        <div class="row">
+          <div class="col-md-4 offset-md-8 header-counter">
+            <div class="kotak-counter">
+              <div class="counter">
+                <span class="count">10</span><br />
+                Design Dibuat
+              </div>
+              <div class="garis"></div>
+              <div class="counter">
+                <span class="count">12</span><br />
+                Halaman Dibangun
+              </div>
+              <div class="garis"></div>
+              <div class="counter">
+                <span class="count">15</span><br />
+                Project Selesai
+              </div>
             </div>
           </div>
         </div>
