@@ -255,7 +255,7 @@ p.header {
 }
 
 /* Responsive CSS */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
   .bg-abu {
     height: 100%;
     width: 70%;
