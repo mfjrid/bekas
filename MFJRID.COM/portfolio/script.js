@@ -17,9 +17,9 @@ $.ajax({
       }
       cards += `<div class="col-md-4 my-4 kotak-card">
                 <div class="card">
-                <a href="#${el.unique}" data-toggle="modal">
+                <!-- <a href="#${el.unique}" data-toggle="modal"> -->
                 <img src="${el.image_url}" class="card-img-top" alt="${el.judul}" />
-                </a>
+                <!-- </a> -->
                 <div class="card-body">
                     <h4 class="card-title">${el.judul}</h4>
                     <p class="card-text text-muted">
