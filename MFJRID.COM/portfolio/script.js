@@ -8,7 +8,7 @@ $.ajax({
       if (el.tipe == "App Design" || el.tipe == "Web Design") {
         tombol = "Perbesar Gambar";
       }
-      cards += `<div class="col-sm-6 my-4 kotak-card">
+      cards += `<div class="col-md-3 my-4 kotak-card">
                 <div class="card">
                 <img src="${el.image_url}" class="card-img-top" alt="${el.judul}" />
                 <div class="card-body">

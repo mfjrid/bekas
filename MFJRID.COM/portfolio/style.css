@@ -23,14 +23,14 @@ h1.judul {
 .kotak-card .card {
   width: 100%;
   border: none;
-  padding: 20px;
+  padding: 10px;
   box-shadow: 0 3px 50px rgba(0, 0, 0, 0.1);
-  border-radius: 20px;
+  border-radius: 3px;
   overflow: hidden;
 }
 
 .kotak-card img {
-  border-radius: 15px;
+  border-radius: 2px;
 }
 
 .card-body {
@@ -51,6 +51,10 @@ h1.judul {
 
 .card-body p {
   margin-bottom: 20px;
+}
+
+h4.card-title {
+  font-size: 16px;
 }
 
 .tombol {
