@@ -1,6 +1,7 @@
 [
   {
     "id": 1,
+    "unique": "warnetapp",
     "judul": "warNET App",
     "tanggal": "17 Agustus 2020",
     "tipe": "App Design",
@@ -9,6 +10,7 @@
   },
   {
     "id": 2,
+    "unique": "yopro",
     "judul": "YoPro",
     "tanggal": "17 Agustus 2020",
     "tipe": "Web Page",
@@ -17,6 +19,7 @@
   },
   {
     "id": 3,
+    "unique": "ubsi",
     "judul": "UBSI Students App Redesign",
     "tanggal": "1 Desember 2018",
     "tipe": "App Design",
@@ -25,6 +28,7 @@
   },
   {
     "id": 4,
+    "unique": "nasigoreng",
     "judul": "Nasi Goreng App",
     "tanggal": "1 Desember 2018",
     "tipe": "App Design",
@@ -34,6 +38,7 @@
   {
     "id": 5,
     "judul": "Good.Co",
+    "unique": "goodco",
     "tanggal": "1 Desember 2018",
     "tipe": "App Design",
     "link_url": "page/good_co-app",

@@ -33,6 +33,16 @@ h1.judul {
   border-radius: 2px;
 }
 
+.card-img-top {
+  background-color: #000;
+  transition: 0.4s;
+}
+
+.card-img-top:hover {
+  filter: brightness(50%);
+  cursor: pointer;
+}
+
 .card-body {
   padding: 0;
   margin: 0;
