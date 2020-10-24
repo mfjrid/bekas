@@ -75,7 +75,7 @@ h4.card-title {
   color: #292929;
   font-weight: 600;
   font-size: 12px;
-  margin-right: 20px;
+  margin-right: 10px;
   border-radius: 2px;
   transition: 0.3s;
 }
@@ -93,4 +93,13 @@ h4.card-title {
   text-decoration: none;
   background-color: #669cb0;
   color: #ffffff;
+}
+
+.modal-content {
+  border: none !important;
+  border-radius: 2px !important;
+}
+
+.modal img {
+  width: 100%;
 }
